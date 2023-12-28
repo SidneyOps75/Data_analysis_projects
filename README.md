@@ -9,6 +9,9 @@ Categorical variables indicate membership in a particular group and have a discr
 Numerical variables are quantitative values:
   - Continuous - These are variables that are quantitative and can be measured along a continuum or range of values. There are two types of continuous variables: Interval variables can have any value within the range of values, and examples are temperature or time; Ratio variables are special interval variables where a value of zero (0) can mean that there is none of that variable and examples are income or sales volume.
   - Discrete - These types of continuous variables are quantitative but have a specific value from a finite set of values. Examples include the number of sensors activated in a network, or the number of cars in a lot.
+## Static and streaming data
+There are two types of data that analysts work with: static data and streaming data. Data that is received and stored prior to performing analysis on the data is considered static data. When each event is processed and analyzed as it is received and subsequent results are used or stored, the data is referred to as streaming data.
+Consider data from a movie review site. A data analyst wants to categorize each viewer comment by whether it is positive or negative during the week a new movie was previewed. The analyst can treat the data as either static or streaming. If the data is going to be treated as static data, it will be stored in the database for later analysis at the end of the week. If it is going to be treated as streaming data, each entry in the comments will be analyzed as it is observed, in real-time. Often, the results of analysis of streaming data are represented as a continuously updated dashboard, or as input to an automated function.
     
 
 
