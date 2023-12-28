@@ -9,7 +9,7 @@ Categorical variables indicate membership in a particular group and have a discr
 Numerical variables are quantitative values:
   - Continuous - These are variables that are quantitative and can be measured along a continuum or range of values. There are two types of continuous variables: Interval variables can have any value within the range of values, and examples are temperature or time; Ratio variables are special interval variables where a value of zero (0) can mean that there is none of that variable and examples are income or sales volume.
   - Discrete - These types of continuous variables are quantitative but have a specific value from a finite set of values. Examples include the number of sensors activated in a network, or the number of cars in a lot.
-[alt text]("C:\Users\bellt\Pictures\Screenshots\Screenshot 2023-12-28 181011.png")
+![alt text]("C:\Users\bellt\Pictures\Screenshots\Screenshot 2023-12-28 181011.png")
 
 
 
