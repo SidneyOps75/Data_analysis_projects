@@ -23,6 +23,20 @@ A spreadsheet file is an example of a flat file database. A flat file database s
 Sensor output is usually collected in a standardized format, which may vary by manufacturer. Individual readings may be separated only by a delimiter or may be time dependent, such as 1 output per second, separated by timestamps.
 ### Transactional Records 
 Records of transactions can be stored in many different formats, depending on the type of transaction and its source. Some transactions are entered manually into forms, while others can be machine generated.
+## Unstructured Data
+Unstructured data is raw data, not organized in a predefined way. It does not possess a fixed schema that identifies the type of data or its format. This type of data lacks a set way of entering or grouping the data, and then analyzing the data.
+Examples of unstructured data include the content of photos, audio, video, web pages, blogs, books, journals, white papers, PowerPoint presentations, articles, email, wikis, word processing documents, and text in general
+### Sources of unstructured data
+
+### NoSQL Databases and Data Lakes
+Unstructured data is often stored in non-relational databases or in data lakes, which are centralized repositories for data obtained from IoT devices, web sites, mobile apps, social media and other sources of raw data. These types of repositories are used to store real-time data in its original format. We will learn about NoSQL later in the course.
+### Web Scraping
+Web pages are created to provide data to humans, not machines. “Web scraping” tools automatically extract various forms of data from HTML pages. Typically, web scraping is an automated process which uses a bot or web crawler to gather and copy specific data from the web to a database or spreadsheet. The data can then be easily analyzed.
+### Application Program Interfaces (APIs)
+Many large web service providers, such as Facebook, provide standardized interfaces to collect data from them automatically, using APIs. The most common approach is to use RESTful application program interfaces (APIs). RESTful APIs use HTTP as their communication protocol and JSON files to store the data. Internet websites like Google and Twitter gather large amounts of static and streaming data. APIs for these sites allow data analysts and engineers to access subsets of the large amounts of data they are constantly generating.
+
+
+
 
 
 
