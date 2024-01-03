@@ -35,6 +35,32 @@ Web pages are created to provide data to humans, not machines. “Web scraping�
 ### Application Program Interfaces (APIs)
 Many large web service providers, such as Facebook, provide standardized interfaces to collect data from them automatically, using APIs. The most common approach is to use RESTful application program interfaces (APIs). RESTful APIs use HTTP as their communication protocol and JSON files to store the data. Internet websites like Google and Twitter gather large amounts of static and streaming data. APIs for these sites allow data analysts and engineers to access subsets of the large amounts of data they are constantly generating.
 
+## Formulas and Functions
+
+
+Excel supports a wide range of formulas and function capabilities—the only difference between these is that functions use keywords and are predefined by Excel, while users can build custom formulas themselves using operators. There are strict rules to follow when creating formulas, so it is a good idea to plan out how you want the calculations to work before you start entering them into your spreadsheet.
+
+First, the basics: all Excel formulas start with an equal sign (=). The equals sign indicates that the data in the cell is not text or a number, but a calculation. This ensures that your formula will not be displayed in the cell instead of the result of the calculation. For example, =1+2 entered into a cell (with the equals sign as the first character) will display the value 3, not the text =1+2.
+
+## Relative and Absolute References
+
+Calculations can be performed on either a constant, like the number 5, or the data contained at a specific location (usually a cell or range of cells). For example, the formula =L1/L7 divides the value in cell L1 by the value in cell L7.
+
+Within a formula or function, when there are cell or range references, they can be either relative or absolute. A reference is relative when its value depends on the location of the reference itself, while an absolute reference refers to the same cell or range no matter where the reference appears. For example, when you did the Manipulate Data lab, you copied and pasted formulas from one row into the rows below it. When you did that, because the formulas had relative references, they used the values from the lower rows to make the calculations for those rows. This is the default behavior for formulas and functions.
+
+If you want a formula to refer to the same cell or range of cells no matter where the formula is pasted, you can make the reference absolute by adding a dollar sign ($) before the column or row indicator for that reference. Let’s use the example referenced above, =L1/L7. If you wanted to use this formula in multiple places in your spreadsheet and always have it use the values in L1 and L7, rather than the values that correspond to the formula’s new location, you would write it as =$L$1/$L$7.
+
+Both the column indication and the row indication can have this attribute, independently of each other, so you can also add the dollar sign to only the column reference or only the row reference.
+
+## Functions
+
+Built-in functions are formulas that start with a keyword that identifies a specific function to be performed. Most function keywords describe the calculation that the function will perform. Correct syntax varies by function, but usually has a similar pattern. For example, the syntax for the AVERAGE function accepts a range or list of cells to calculate the average of the values within the range, such as =AVERAGE(L2:L37) or =AVERAGE(L2, L5, L6).
+
+Note: You must make sure to close all parenthesis and brackets, or you will receive an error message when you press enter to complete the entry. For long functions this can be difficult.
+
+When you start a cell entry with an equal sign, as you type the function name, a menu of functions matching your entry will usually appear and show the short description of each function listed. If this doesn’t happen automatically, you can also right-click on a cell and enter the equals sign in the text field that says “Search the menus” to show this menu. Selecting the function that you want places the function name and an open parenthesis on the formula bar and in the cell.
+
+
 
 
 
