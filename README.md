@@ -58,7 +58,7 @@ Built-in functions are formulas that start with a keyword that identifies a spec
 
 Note: You must make sure to close all parenthesis and brackets, or you will receive an error message when you press enter to complete the entry. For long functions this can be difficult.
 
-When you start a cell entry with an equal sign, as you type the function name, a menu of functions matching your entry will usually appear and show the short description of each function listed. If this doesn’t happen automatically, you can also right-click on a cell and enter the equals sign in the text field that says “Search the menus” to show this menu. Selecting the function that you want places the function name and an open parenthesis on the formula bar and in the cell.
+When you start a cell entry with an equal sign, as you type the function name, a menu of functions matching your entry will usually appear and show the short description of each function listed. If this doesn’t happen automatically, you can also right-click on a cell and enter the equals sign in the text field that says “Search the menus” to show this menu. Selecting the function that you want places the function name and an open parenthesis on the formula bar and in the cell
 
 
 
